@@ -1,0 +1,24 @@
+error: uncaughtException: Cannot find module '../jwt.json'
+Require stack:
+- D:\Sheet2Discord\scheduling\postingForum.js
+- D:\Sheet2Discord\scheduling\schedule.js
+- D:\Sheet2Discord\events\ready.js
+- D:\Sheet2Discord\handler\Event.js
+- D:\Sheet2Discord\index.js
+Error: Cannot find module '../jwt.json'
+Require stack:
+- D:\Sheet2Discord\scheduling\postingForum.js
+- D:\Sheet2Discord\scheduling\schedule.js
+- D:\Sheet2Discord\events\ready.js
+- D:\Sheet2Discord\handler\Event.js
+- D:\Sheet2Discord\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (D:\Sheet2Discord\scheduling\postingForum.js:12:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19) {"date":"Mon Nov 06 2023 18:09:02 GMT+0700 (Indochina Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\Sheet2Discord\\scheduling\\postingForum.js","D:\\Sheet2Discord\\scheduling\\schedule.js","D:\\Sheet2Discord\\events\\ready.js","D:\\Sheet2Discord\\handler\\Event.js","D:\\Sheet2Discord\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9525.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Sheet2Discord"],"cwd":"D:\\Sheet2Discord","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18479556,"external":22979297,"heapTotal":144228352,"heapUsed":108551160,"rss":185655296},"pid":14788,"uid":null,"version":"v18.18.2"},"stack":"Error: Cannot find module '../jwt.json'\nRequire stack:\n- D:\\Sheet2Discord\\scheduling\\postingForum.js\n- D:\\Sheet2Discord\\scheduling\\schedule.js\n- D:\\Sheet2Discord\\events\\ready.js\n- D:\\Sheet2Discord\\handler\\Event.js\n- D:\\Sheet2Discord\\index.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n    at Module._load (node:internal/modules/cjs/loader:922:27)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\Sheet2Discord\\scheduling\\postingForum.js:12:14)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)","timestamp":"2023-11-06T11:09:02.397Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1077,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":119,"method":null,"native":false},{"column":14,"file":"D:\\Sheet2Discord\\scheduling\\postingForum.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false}]}

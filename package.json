@@ -1,0 +1,27 @@
+{
+  "name": "sheets2discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node handler/RegisterSlash.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@devraelfreeze/discordjs-pagination": "^2.7.6",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "google-auth-library": "^9.1.0",
+    "googleapis": "^128.0.0",
+    "heatsync": "^2.4.2",
+    "mongoose": "^7.6.3",
+    "natural": "^6.8.0",
+    "node-schedule": "^2.1.1",
+    "string-similarity": "^4.0.4",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
