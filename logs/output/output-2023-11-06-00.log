@@ -28,3 +28,11 @@ info: Analyzing folder link {"timestamp":"2023-11-06T11:39:19.937Z"}
 info: Found 10 individual command(s) inside link {"timestamp":"2023-11-06T11:39:19.937Z"}
 info: [MONGO] Mongoose has successfully connected! {"timestamp":"2023-11-06T11:39:22.866Z"}
 info: [DISCORD] RR Beta#2690 has logged in! {"timestamp":"2023-11-06T11:39:24.407Z"}
+info: Initilizing commands files and folders.... {"timestamp":"2023-11-06T11:42:05.845Z"}
+info: Found 2 folders. {"timestamp":"2023-11-06T11:42:05.849Z"}
+info: Analyzing folder heading {"timestamp":"2023-11-06T11:42:05.849Z"}
+info: Found 7 individual command(s) inside heading {"timestamp":"2023-11-06T11:42:05.851Z"}
+info: Analyzing folder link {"timestamp":"2023-11-06T11:42:05.863Z"}
+info: Found 10 individual command(s) inside link {"timestamp":"2023-11-06T11:42:05.863Z"}
+info: [MONGO] Mongoose has successfully connected! {"timestamp":"2023-11-06T11:42:09.229Z"}
+info: [DISCORD] RR Beta#2690 has logged in! {"timestamp":"2023-11-06T11:42:10.923Z"}
